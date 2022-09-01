@@ -1,0 +1,57 @@
+body {
+    color: tomato;
+}
+
+/*si dejamos id con #titulo1 llamamos en css*/
+#titulo1{ 
+   border-style:double;
+   border-radius:5px;
+   border-color: blueviolet;
+   border-width: 5px;
+    /*border: 5px blue double;*/
+    /* existen dotted, dashed-solid-double-groove-ridge-inset-outset-none-hidden*/
+}
+
+/* si es class .texto1 llamamos desde css*/
+.text1{
+    color:green;
+}
+/* esto es un comentario en css*/
+.text2{
+    color:gray;
+}
+
+#articulo{
+    background-color: red;
+    opacity: 0.3;
+    /*background-image: url(foto.png); 
+    height: 300px;
+    background size: contain; para contener toda la imagen*/
+}
+
+#titulos_tabla{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: solid 1px #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+/*even es impar hace el efecto de que se vea mejor la tabla*/
+tr:nth-child(even){
+    background-color: #eee;
+}
+
+tr:hover{
+    background-color: gray; /* con esto cuando pasa el mouse se pone de ese color*/
+    cursor: pointer;/* con esto da la ilusion de que se puede seleccionar*/
+}
+
